@@ -14,7 +14,7 @@ const Header = () => {
         <div className="w-fit h-full flex items-center">
           <div
             className={`${dynaPuff.className} w-fit text-2xl md:text-3xl text-blueText`}
-          >{`{Hanzala Ahmed}`}</div>
+          >{`{ASEJ}`}</div>
         </div>
         {/* Desktop Nav */}
         <div className="zeroScreen:hidden h-full w-fit gap-12 navSm:flex items-center justify-between">
@@ -36,14 +36,11 @@ const Header = () => {
             </li>
           </ul>
           <div className="gap-7 flex">
-            <Link href={"https://github.com/Hanzala-Ahmed"} target="_blank">
+            <Link href={"https://github.com/ASEJ1"} target="_blank">
               <Image src={"/githubIcon.svg"} alt="" width={25} height={25} />
             </Link>
-            <Link href={""}>
-              <Image src={"/twitterIcon.svg"} alt="" width={27} height={27} />
-            </Link>
             <Link
-              href={"https://www.linkedin.com/in/hanzala-ahmed-433535170/"}
+              href={"https://www.linkedin.com/in/ahmed-saifeddine-jaffel-058411152/"}
               target="_blank"
             >
               <Image src={"/linkedInIcon.svg"} alt="" width={26} height={26} />
@@ -98,7 +95,7 @@ const Header = () => {
               </li>
             </ul>
             <div className="gap-7 flex">
-              <Link href={"https://github.com/Hanzala-Ahmed"} target="_blank">
+              <Link href={"https://github.com/ASEJ1"} target="_blank">
                 <Image
                   src={"/githubWhiteIcon.svg"}
                   alt=""
@@ -106,16 +103,8 @@ const Header = () => {
                   height={25}
                 />
               </Link>
-              <Link href={""}>
-                <Image
-                  src={"/twitterWhiteIcon.svg"}
-                  alt=""
-                  width={27}
-                  height={27}
-                />
-              </Link>
               <Link
-                href={"https://www.linkedin.com/in/hanzala-ahmed-433535170/"}
+                href={"https://www.linkedin.com/in/ahmed-saifeddine-jaffel-058411152/"}
                 target="_blank"
               >
                 <Image

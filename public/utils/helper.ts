@@ -4,7 +4,6 @@ export const stackData = [
     { src: "/jsIcon.svg", name: "JavaScript" },
     { src: "/typescriptIcon.svg", name: "TypeScript" },
     { src: "/reactIcon.svg", name: "React" },
-    { src: "/reactIcon.svg", name: "React-Native" },
     { src: "/nextjsIcon.svg", name: "Next.Js" },
     { src: "/reduxIcon.svg", name: "Redux" },
     { src: "/sassIcon.svg", name: "Sass" },
@@ -13,15 +12,11 @@ export const stackData = [
     { src: "/expressjsIcon.svg", name: "Express" },
     { src: "/mongodbIcon.svg", name: "Mongo DB" },
     { src: "/web3Icon.svg", name: "Web3" },
-    { src: "/awsIcon.svg", name: "AWS" },
-    { src: "/firebaseIcon.svg", name: "Firebase" },
-    { src: "/gitIcon.svg", name: "Git" },
+    { src: "/flutter-icon.svg", name: "Flutter" },
     { src: "/githubIcon.svg", name: "Github" },
     { src: "/npmIcon.svg", name: "npm" },
     { src: "/dockerIcon.svg", name: "Docker" },
-    { src: "/pythonIcon.svg", name: "Python" },
     { src: "/figmaIcon.svg", name: "Figma" },
-    { src: "/adobexdIcon.svg", name: "Adobe XD" },
   ];
 
   export const projectsData = [

@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hanzala Ahmed - Software Engineer | Frontend Developer</title>
+        <title>ASEJ - Software Engineer | FullStack Developer</title>
         <meta
           name="description"
-          content="Check out iPhone 12 XR Pro and iPhone 12 Pro Max. Visit your local store and for expert advice."
+          content="."
           key="desc"
         />
       </Head>
@@ -30,23 +30,22 @@ export default function Home() {
         <div className="h-full w-full mt-10 flex justify-between items-center py-10 mb-20 lg:flex-row flex-col">
           <div className="h-full w-full lg:w-[56%] text-center lg:text-justify flex justify-center flex-col text-xl">
             <div className="font-extrabold text-4xl mb-5">
-              Hi 🤝<sup className="text-pinkText text-lg">{`}`}</sup>,{" "}
+              Hi <sup className="text-pinkText text-lg">{``}</sup>,{" "}
               <p className="mb-2">My name is</p>{" "}
               <p className={`${dancingScript.className} text-blueText mb-2`}>
-                Hanzala Ahmed
+              Ahmed Saifeddine JAFFEL
               </p>
             </div>
             <p className="my-3">
-              {`I'm a frontend developer with
-            2 years of experience. I've always been passionate
-            about creating beautiful and functional websites and web
-            applications, and I love the constant challenge of keeping up with
-            the latest technologies and design trends.`}
+              {`I am a passionate software engineer known for my creative and dynamic approach to problem solving, coupled with a knack for crafting innovative projects. 
+              With a proven track record, I excel in leadership and team management,
+               bolstered by strong communication skills,
+                both written and oral. Let's connect and collaborate to drive innovation and make a positive impact in the tech industry.`}
             </p>
             <p className="my-3">
               {`I have a strong background in HTML, CSS, JavaScript, and various frontend 
             frameworks like React and Next.Js. I'm also skilled in UX/UI design, 
-            responsive design, and cross-browser compatibility. I've worked on a wide range
+            responsive design, and cross-platform compatibility. I've worked on a wide range
             of projects, from small business websites to large-scale web applications, and 
             I'm always eager to take on new challenges.`}
             </p>
@@ -54,12 +53,14 @@ export default function Home() {
           <div className="h-full flex justify-center items-center my-14">
             <div className="w-72 h-72 border-4 border-blueBorder p-2 rounded-full">
               <Image
-                src={"/pic.jpg"}
+                src={"/byUMZMP.jpeg"}
                 alt=""
-                width={400}
-                height={400}
-                className="w-full h-full rounded-full"
+                width={200}
+                height={200}
+                className="rounded-full"
+                style={{ objectFit: 'cover', width: '300px', height: '265px' }}
               />
+
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@ export default function Home() {
         <div className="h-fit w-full flex flex-col justify-center items-center mb-28">
           <div className="w-fit flex flex-col items-center">
             <p className="font-extrabold text-4xl text-blueText">
-              My Teck Stack
+              My Tech Stack
             </p>
             <p className="text-grayText mt-4 text-xl text-center">
               Technologies I’ve been working with recently
